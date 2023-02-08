@@ -4,11 +4,22 @@ import  Footer from './components/Footer'
 import { BrowserRouter } from 'react-router-dom'
 
 
+
 function App() {
   return (
     <BrowserRouter>  
-      <Navbar/>
-      <Footer/>
+    <div>
+    <Navbar/>
+    </div>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+      <div>
+        <Footer/>
+        </div>
     </BrowserRouter>
   );
 }
