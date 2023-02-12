@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/footer.css';
 import {
   MDBFooter,
   MDBContainer,
@@ -10,6 +11,7 @@ import {
 
 export default function App() {
   return (
+    <div className='divfix'>
     <MDBFooter className='bg-dark   r text-white'>
       <MDBContainer className='p-4 pb-0 justify-content-center'>
         <section className='mb-4 '>
@@ -36,6 +38,7 @@ export default function App() {
             <MDBIcon fab icon='github' />
           </MDBBtn>
         </section>
+
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
@@ -45,5 +48,6 @@ export default function App() {
         </a>
       </div>
     </MDBFooter>
+    </div>
   );
 }
